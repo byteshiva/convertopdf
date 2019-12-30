@@ -23,8 +23,8 @@ USER gitpod
 # Install Puppeteer under /node_modules so it's available system-wide
 # ADD package.json package-lock.json /
 RUN bash -c ". .nvm/nvm.sh \
-    && nvm install 10 \
-    && nvm use 10 \
+    && nvm install 13 \
+    && nvm use 13 \
     && npm install -g yarn && npm install"
 
 # Give back control
