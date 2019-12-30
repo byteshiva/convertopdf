@@ -3,5 +3,5 @@ image:
 tasks:
   - init: yarn install
     command: >
-      yarn install &
+      yarn install &&
       node app.js
