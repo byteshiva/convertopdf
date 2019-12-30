@@ -25,7 +25,7 @@ USER gitpod
 RUN bash -c ". .nvm/nvm.sh \
     && nvm install 10 \
     && nvm use 10 \
-    && npm install -g yarn"
+    && npm install -g yarn && npm install"
 
 # Give back control
 USER root
