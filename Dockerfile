@@ -1,1 +1,1 @@
-from: node13
+FROM node:13
